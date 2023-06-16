@@ -22,7 +22,7 @@ import logging
 import os
 import sys
 import json
-
+os.environ["WANDB_DISABLED"] = "true"
 import numpy as np
 from datasets import load_dataset
 import jieba 
